@@ -69,7 +69,7 @@ int Addition(int x, int y) {
 void MaxFun() {
 	int Arr[5], Max, Min, i;
 	cout << "\n Enter the integer arrey " << endl;
-	for (i = 0; i < 5; ++i){
+	for (i = 1; i < 5; ++i){
 		cin >> Arr[i];
 	}
 	/*cout << "Your array are " << Arr[i] << endl;*/
@@ -88,5 +88,5 @@ void MaxFun() {
 	
 	}
 	cout << "The max number is " << Max << endl;
-	cout << "The minimum number is " << Min << endl;
+	cout << "The min number is " << Min << endl;
 }
