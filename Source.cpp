@@ -8,6 +8,7 @@ void myFunction();
 int Addition(int x, int y);
 void MaxFun();
 
+// write the main function to execute the ´code
 int main() {
 	int GradePoint;
 	cout << "Enter the grade point: ";
@@ -64,6 +65,7 @@ int Addition(int x, int y) {
 	return (x + y);
 }
 
+// create a function to find max and min number from an array
 void MaxFun() {
 	int Arr[5], Max, Min, i;
 	cout << "\n Enter the integer arrey " << endl;
