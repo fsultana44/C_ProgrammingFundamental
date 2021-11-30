@@ -7,6 +7,7 @@ void bodyTemp(string Name, int Age,double Temperature);
 void myFunction();
 int Addition(int x, int y);
 void MaxFun();
+void DisArray();
 
 // write the main function to execute the ´code
 int main() {
@@ -42,7 +43,6 @@ int main() {
 	bodyTemp("Tuli", 30, 96.70);
 	int z = Addition(6, 7);
 	cout << "Sum of the two number :" << z;
-
 	MaxFun();
 	return 0;
 }
@@ -68,7 +68,7 @@ int Addition(int x, int y) {
 // create a function to find max and min number from an array
 void MaxFun() {
 	int Arr[5], Max, Min, i;
-	cout << "\n Enter the integer arrey " << endl;
+	cout << "\n Enter the integer array " << endl;
 	for (i = 1; i < 5; ++i){
 		cin >> Arr[i];
 	}
