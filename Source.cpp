@@ -7,7 +7,7 @@ void bodyTemp(string Name, int Age,double Temperature);
 void myFunction();
 int Addition(int x, int y);
 void MaxFun();
-void DisArray();
+//void DisArray();
 
 // write the main function to execute the ´code
 int main() {
